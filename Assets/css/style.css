@@ -40,34 +40,35 @@
 }
 
 .campo {
-    display: flex;
+    display: inline-block;
     flex-direction: row;
-    justify-content: center;
-    margin-block: 5px;
+    justify-items: center;
     margin-top: 100px;
-    align-items: center;
-    margin-right: 20%;
-    margin-left: 20%;
     font-size: 24px;
+}
+
+.classeesquerda {
+    justify-content: left;
+}
+
+.classedireita {
+    justify-content: right;
 }
 
 .nomecampo {
     width: 350px;
     height: 60px;
-    margin-left: 100px; 
     border-radius: 6%;  
 }
 
 .emailcampo {
     width: 350px;
-    justify-content: center;
     height: 60px;
     border-radius: 6%;
 }
 
 .botao {
     width: 350px;
-    margin-right: 100px;
     height: 60px;
     border-radius: 6%;
     font-family: "Montserrat", sans-serif;
