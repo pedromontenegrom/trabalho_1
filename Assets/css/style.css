@@ -40,15 +40,18 @@
 }
 
 .campo {
-    display: inline-block;
+    display: flex;
     flex-direction: row;
     justify-items: center;
     margin-top: 100px;
     font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400; 
 }
 
 .classeesquerda {
-    justify-content: left;
+    display: flex;
+    justify-content: left
 }
 
 .classedireita {
@@ -56,21 +59,21 @@
 }
 
 .nomecampo {
-    width: 350px;
-    height: 60px;
-    border-radius: 6%;  
+    width: 400px;
+    height: 75px;
+    border-radius: 5%;
 }
 
 .emailcampo {
-    width: 350px;
-    height: 60px;
-    border-radius: 6%;
+    width: 400px;
+    height: 75px;
+    border-radius: 5%;
 }
 
 .botao {
-    width: 350px;
-    height: 60px;
-    border-radius: 6%;
+    width: 400px;
+    height: 75px;
+    border-radius: 5%;
     font-family: "Montserrat", sans-serif;
     font-weight:400;
     color: white;
