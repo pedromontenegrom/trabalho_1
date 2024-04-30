@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
 
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
 
 .row.row1 {
     height: 100vh;
@@ -11,74 +16,99 @@
 .primeiroconteudo {
     padding-top: 4%;
     color: white;
-    border: 1px solid white;
     text-align: center;
+    border: 1px solid white;
 }
 
 .apple {
     font-family: "Montserrat", sans-serif;
     font-weight: 500; 
-    font-size: 50px;
+    font-size: 20px;
 }
 
 .segundoconteudo {
     border: 1px solid white;
     color: white;
     text-align: center;
+    justify-content: center;
 }
 
 .textomaior {
     font-family: "Montserrat", sans-serif;
     font-weight: 600; 
-    font-size: 80px;
+    font-size: 50px;
 }
 
 .textomenor {
     font-family: "Montserrat", sans-serif;
     font-weight: 400; 
-    font-size: 40px;
+    font-size: 25px;
 }
 
-.campo {
+.camposbotaoeespacos {
     display: flex;
+    justify-content: center;
     flex-direction: row;
-    justify-items: center;
-    margin-top: 100px;
-    font-size: 24px;
+    font-size: 16px;
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
-    align-items: center;
 }
 
-.classeesquerda {
+.camposebotao {
     display: flex;
-    justify-content: left
+    flex-direction: row;
 }
 
-.classedireita {
-    justify-content: right;
+.espacoembrancoesq {
+    border: 1px solid white;
+}
+
+.espacoembrancodir {
+    border: 1px solid white;
+}
+
+.campo1 {
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+}
+
+.campo2 {
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+}
+
+.botaodiv {
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
 }
 
 .nomecampo {
-    width: 400px;
-    height: 75px;
+    width: 250px;
+    height: 45px;
     border-radius: 5%;
+    border: 1px solid white;
 }
 
 .emailcampo {
-    width: 400px;
-    height: 75px;
+    width: 250px;
+    height: 45px;
     border-radius: 5%;
+    border: 1px solid white;
+
 }
 
 .botao {
-    width: 400px;
-    height: 75px;
+    width: 250px;
+    height: 45px;
     border-radius: 5%;
     font-family: "Montserrat", sans-serif;
     font-weight:400;
     color: white;
     background-color: dimgrey
+
 }
 
 .botao:hover {
