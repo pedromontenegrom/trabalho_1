@@ -74,19 +74,19 @@ body {
 .nomecampo {
     width: 250px;
     height: 40px;
-    border-radius: 5%;
+    border-radius: 8%;
 }
 
 .emailcampo {
     width: 250px;
     height: 40px;
-    border-radius: 5%;
+    border-radius: 8%;
 }
 
 .botao {
     width: 200px;
     height: 40px;
-    border-radius: 5%;
+    border-radius: 8%;
     font-family: "Montserrat", sans-serif;
     font-weight:400;
     color: white;
@@ -98,7 +98,39 @@ body {
 }
 
 .terceiroconteudo {
-    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.logo1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .row.row2 {
