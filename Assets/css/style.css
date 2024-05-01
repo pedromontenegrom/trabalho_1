@@ -10,6 +10,7 @@ body {
     height: 100vh;
     width: 100vw;
     background-color: black;
+    width: fit-content;
 }
 
 .primeiroconteudo {
@@ -46,14 +47,14 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding: 0 0 0 0;
+    width: fit-content;
 }
 
 .camposebotao {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding: 0 8% 0 8%;
+    margin: 0 4% 0 4%;
 }
 
 .campo1 {
@@ -104,30 +105,6 @@ body {
 }
 
 .logo {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.logo1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.logo2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.logo3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.logo4 {
     display: flex;
     justify-content: center;
     align-items: center;
