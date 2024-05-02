@@ -224,7 +224,7 @@ body {
     flex-direction: row;
     text-align: center;
     width: fit-content;
-    padding: 1%;
+    justify-content: center;
 }
 
 video-aspect-ratio {
@@ -241,7 +241,6 @@ video-aspect-ratio {
 
 .decimoprimeiroconteudo {
     display: flex;
-    align-items: center;
     justify-content: center;
     flex-direction: column;
 }
@@ -263,34 +262,114 @@ video-aspect-ratio {
     text-align: left;
 }
 
-.tudorow4 {
-    display: flex;
-    flex-direction: row;
-    padding: 6%;
-}
-
 .row.row5 {
     height: 100vh;
     width: 100vw;
-    background-color: green;
+    background-color: black;
     text-align: center;
-    border: 1px solid black;
+    padding: 12%;
+    overflow-x: hidden;
+    width: fit-content;
 }
 
 .decimosegundoconteudo {
-    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-.decimoterceiroconteudo {
-    border: 1px solid black;
+.titulo5 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600; 
+    font-size: 50px;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.texto5 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400; 
+    font-size: 25px;
+    color: white;
+}
+
+.autor {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400; 
+    font-size: 25px;
+    color: white;
+    padding-top: 6%;
+}
+
+.autortrabalho {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300; 
+    font-size: 20px;
+    color: white;
 }
 
 .row.row6 {
     height: 100vh;
     width: 100vw;
-    background-color: purple;
+    background-color: white;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textomaior6 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600; 
+    font-size: 50px;
+    color: black;
+    margin-top: 6%;
+}
+
+.textomenor6 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400; 
+    font-size: 25px;
+    color: black;
+}
+
+.row6conteudo {
+    padding-top: 4%;
+    color: black;
     text-align: center;
-    border: 1px solid black;
+}
+
+.campos6 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: fit-content;
+}
+
+.camposebotao6 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 4% 0 4%;
+    margin-bottom: 16%;
+}
+
+.row6campo1 {
+    display: flex;
+    justify-content: center;
+}
+
+.row6campo2 {
+    display: flex;
+    justify-content: center;
+}
+
+.row6botaodiv {
+    display: flex;
+    justify-content: center;
 }
 
 .decimoquartoconteudo {
@@ -299,5 +378,11 @@ video-aspect-ratio {
 
 .decimoquintoconteudo {
     border: 1px solid black;
+}
+
+.row6footerconteudo {
+    background-color: black;
+    padding: 8px;
+    width: 100%;
 }
 
