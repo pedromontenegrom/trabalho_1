@@ -213,23 +213,60 @@ body {
 
 .imagem {
     display: block;
-    padding: 6%
+    padding: 6%;
 }
 
 .row.row4 {
     height: 100vh;
     width: 100vw;
-    background-color: pink;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
     text-align: center;
-    border: 1px solid black;
+    width: fit-content;
+    padding: 1%;
+}
+
+video-aspect-ratio {
+    aspect-ratio: 16/9;
+    height: 100%;
+    width: 100%;
 }
 
 .decimoconteudo {
-    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .decimoprimeiroconteudo {
-    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.titulorow4 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600; 
+    font-size: 38px;
+    color: black;
+    display: flex;
+    text-align: left;
+}
+
+.pontos {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400; 
+    font-size: 24px;
+    color: black;
+    text-align: left;
+}
+
+.tudorow4 {
+    display: flex;
+    flex-direction: row;
+    padding: 6%;
 }
 
 .row.row5 {
