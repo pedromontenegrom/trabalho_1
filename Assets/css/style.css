@@ -382,7 +382,21 @@ video-aspect-ratio {
 
 .row6footerconteudo {
     background-color: black;
-    padding: 8px;
+    padding: 4px;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+
+.textofooter {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400; 
+    font-size: 12px;
+    color: white;
 }
 
